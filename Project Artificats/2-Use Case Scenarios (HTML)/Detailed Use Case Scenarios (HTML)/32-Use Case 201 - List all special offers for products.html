@@ -1,0 +1,26 @@
+<h2 style="text-align: center;"><strong>201 - List all special offers for products<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Vendor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Vendor has been logged in to his account.</li>
+<li>Vendor has already added at least one offer.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Vendor navigates to the vendor panel.</li>
+<li>Vendor clicks on list special offers link.</li>
+<li>The special offers list page is displayed, showing the first 20 special offers in rows ordered by recent special offer start date.</li>
+<li>Each row shows a single offer details which is Title, Product title, creation date, a delete icon, start and end dates.</li>
+<li>The Offer&nbsp; title is also a link to update the offer.</li>
+<li>There is a paging area where vendor can navigate between different pages which displayes the rest of the offers.</li>
+</ol>
+<h3><strong>Postconditions</strong></h3>
+<p style="padding-left: 30px;">None</p>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>3.1 The number of offers per page is set to 30<br /></strong></p>
+<p style="padding-left: 60px;">if the settings were modified to show 30 offers per page, then</p>
+<p style="padding-left: 90px;">3.1.1 The list will show 30 offer.</p>
+<p style="padding-left: 90px;">3.1.2 The use case resumes at step 4.</p>

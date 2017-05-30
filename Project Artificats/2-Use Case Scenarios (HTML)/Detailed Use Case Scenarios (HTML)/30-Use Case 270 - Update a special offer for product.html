@@ -1,0 +1,33 @@
+<h2 style="text-align: center;"><strong>270 - Update a special offer for product<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Vendor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Vendor has been logged in to his account.</li>
+<li>Vendor has already added at least on offer.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Vendor navigates to the vendor panel.</li>
+<li>Vendor clicks on a specific offer title from list all offers page.</li>
+<li>The page shows input fields for offer details which is Offer Title, Image, Product Name, Start and end dates is displayed.</li>
+<li>All of the input fields are filled with the current offer details.</li>
+<li>The page has a grey (unavailable) update button.</li>
+<li>The vendor updates the offer title and end date.</li>
+<li>The update button becomes blue (available).</li>
+<li>The vendor clicks on the save button.</li>
+<li>The offer details are validated.</li>
+<li>The update button becomes grey (unavailable) again, indicating that the offer details were updated.</li>
+</ol>
+<h3><strong>Postconditions</strong></h3>
+<ol>
+<li>The offer details are updated.</li>
+<li>The update is reflected to members and visitors.</li>
+</ol>
+<p><strong>Alternative Flow</strong></p>
+<p style="padding-left: 30px;"><strong>9.1 The offer title is too long<br /></strong></p>
+<p style="padding-left: 60px;">if the offer title is more than 20 characters length, then</p>
+<p style="padding-left: 90px;">9.1.1. An error message will show indicating that the provided title is too long.</p>
+<p style="padding-left: 90px;">9.1.2 The use case resumes at step 4.</p>

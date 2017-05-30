@@ -1,0 +1,30 @@
+<h2 style="text-align: center;"><strong>143 - Update completed order<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Vendor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Vendor has been logged to his account.</li>
+<li>At least one order was made to the vendor.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Vendor clicks on a specific order from list all orders page.</li>
+<li>A page shows order details which is the Quantity of products in order, Price of each product in order, Total price for products in order, Order Status and Gift wrap option for order is displayed.</li>
+<li>The member's personal information which is First name, Last name, Email, Phone, City, State, Postal code, Country and Address of shipping details is also displayed.</li>
+<li>The vendor clicks on the member's personal information area.</li>
+<li>A dialog shows the member's personal information into input fields and a save button is displayed.</li>
+<li>The vendor corrects a spelling mistake in the member's first name field.</li>
+<li>The vendor clicks on the save button.</li>
+<li>The member information is validated.</li>
+<li>The dialog disappears.</li>
+</ol>
+<h3><strong>Postcondition</strong></h3>
+<ol>
+<li>The order information is updated.</li>
+</ol>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>8.1 Invalid first name<br /></strong></p>
+<p style="padding-left: 60px;">if vendor provides an invalid first name, then</p>
+<p style="padding-left: 90px;">8.1.1. An error message shows to indicate that the first name provided is invalid.</p>

@@ -1,0 +1,30 @@
+<h2 style="text-align: center;"><strong>63 - Display placed orders<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Member</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Member has been logged successfully to his account.</li>
+<li>Member has already placed at least one order.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Member navigates to the home page.</li>
+<li>Member clicks on order history link under his account list.</li>
+<li>The orders list page shows the first 20 orders in rows ordered by recent order date is displayed.</li>
+<li>Each row shows an Order Id, Order Date Total Price and a details link.</li>
+<li>There is also a paging area where member can navigate between different pages which displays the rest of the orders.</li>
+<li>Member clicks on the details link for a specific order.</li>
+<li>The row for the specified order expands and displays a list of all items in the order in rows.</li>
+<li>Each row shows item quantity, total price and an image.</li>
+</ol>
+<h3>Postconditions</h3>
+<ol>
+<li>None.</li>
+</ol>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>3.1 The number of orders per page is set to 30<br /></strong></p>
+<p style="padding-left: 60px;">if the settings were modified to show 30 orders per page, then</p>
+<p style="padding-left: 90px;">3.1.1. The list will show 30 orders instead of 20.</p>
+<p style="padding-left: 90px;">3.1.2 The use case resumes at step 4.</p>

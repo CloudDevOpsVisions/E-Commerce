@@ -1,0 +1,23 @@
+<h2 style="text-align: center;"><strong>139 - Display products of a selected category<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Visitor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>At least one sub category is added, and has at least one product inside.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Visitor navigates to the home page and clicks on a specific sub category.</li>
+<li>A page with products under the specified sub category is displayed.</li>
+<li>The page shows first 20 product from the selected sub category.</li>
+<li>There is also a paging area where visitor can navigate between different pages which displays the rest of the products.</li>
+</ol>
+<h3><strong>Postconditions</strong></h3>
+<p style="padding-left: 30px;">None</p>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>3.1 The number of products per page is set to 30<br /></strong></p>
+<p style="padding-left: 60px;">if the settings were modified to show 30 products per page, then</p>
+<p style="padding-left: 90px;">3.1.1. The page will show 30 products instead of 20.</p>
+<p style="padding-left: 90px;">3.1.2. The use case resumes at step 4.</p>

@@ -1,0 +1,35 @@
+<h2 style="text-align: center;"><strong>2071- Display all orders made by all users for all vendors</strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Admin</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Admin has been logged in to his account.</li>
+<li>Admin has been authorized to list all orders.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Admin navigates to admin panel.</li>
+<li>Admin clicks on list all orders link.</li>
+<li>The list all orders page is displayed, showing the first 20 offers in rows ordered by recent order date.</li>
+<li>Each row shows an Order Id, Order Date, Order Status, Total Products in order, Total Price, Username of the member who made the order and vendor name who will provide the order.</li>
+<li>The Order Id is also a link to view order details, the Order Status is a list with possible order status, the vendor name and member username is also links to view vendor profile and member profile respectively.</li>
+<li>There is a paging area where admin can navigate between different pages which displayes the rest of the orders.</li>
+<li>The list can be filtered by&nbsp;date range, vendor name or username using&nbsp;a date range selectors, two search boxes and a search button respectively.</li>
+<li>Admin enters few letters of a specific the vendor name in the filter by vendor name field.</li>
+<li>A list of vendor names that contains letters entered by admin shows in the filter by vendor name field.</li>
+<li>Admin clicks on a specific vendor name from the list.</li>
+<li>The filter by vendor name field is filled with the selected vendor.</li>
+<li>Admin clicks on the search box.</li>
+<li>The list is updated with only orders made for the specified vendor.</li>
+</ol>
+<h3><strong>Postcondition</strong></h3>
+<ol>
+<li>None.</li>
+</ol>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>3.1 The number of orders per page is set to 30<br /></strong></p>
+<p style="padding-left: 60px;">if the settings were modified to show 30 order per page, then</p>
+<p style="padding-left: 90px;">3.1.1. The list will show 30 order.</p>
+<p style="padding-left: 90px;">3.1.2. The use case resumes at step 4.</p>

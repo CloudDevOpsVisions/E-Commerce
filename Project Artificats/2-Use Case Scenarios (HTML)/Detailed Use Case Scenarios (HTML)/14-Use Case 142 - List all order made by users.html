@@ -1,0 +1,39 @@
+<h2 style="text-align: center;"><strong>142 - List all order made by users</strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Vendor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Vendor has been logged to his account.</li>
+<li>At least one order was made to the vendor.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Vendor navigates to the vendor panel.</li>
+<li>Vendor clicks on list all orders link.</li>
+<li>The list all orders page is displayed, showing the first 20 offers in rows ordered by recent order date.</li>
+<li>Each row shows an Order Id, Order Date, Order Status, Total Product in order, Total Price and Username which made the order.</li>
+<li>The Order Id is also a link to view order details, the Order Status is a list with possible order status and the username is also a link to view member profile.</li>
+<li>There is a paging area where vendor can navigate between different pages which displayes the rest of the orders.</li>
+<li>The list can be filtered by date range or username using a date range selectors, a search box and a search button repectively.</li>
+<li>Vendor clicks on the date range selectors.</li>
+<li>Two Date selectors are displayed, the feature dates are disabled.</li>
+<li>Vendor enters two specific dates.</li>
+<li>Vendor clicks on the search button.</li>
+<li>The vendor input is being validated.</li>
+<li>The list is updated with orders made in the selected date range.</li>
+</ol>
+<h3><strong>Postcondition</strong></h3>
+<ol>
+<li>None.</li>
+</ol>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>3.1 The number of orders per page is set to 30<br /></strong></p>
+<p style="padding-left: 60px;">if the settings were modified to show 30 order per page, then</p>
+<p style="padding-left: 90px;">3.1.1. The list will show 30 order, and the use case continue.</p>
+<p style="padding-left: 90px;">3.1.2 The use case resumes at step 4.</p>
+<p style="padding-left: 30px;"><strong>12.1 No orders for the selected dates<br /></strong></p>
+<p style="padding-left: 60px;">if the selected dates doesn't contain any orders, then</p>
+<p style="padding-left: 90px;">12.1.1. The list content is replaced with a message indicating that no items were found.</p>
+<p style="padding-left: 90px;">12.1.2 The use case ends.</p>

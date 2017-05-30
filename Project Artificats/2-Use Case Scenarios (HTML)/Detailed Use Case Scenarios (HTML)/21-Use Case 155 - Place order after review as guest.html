@@ -1,0 +1,29 @@
+<h2 style="text-align: center;"><strong>155 - Place order after review as guest<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Visitor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Visitor has already added at least one item into his shopping cart.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Visitor clicks on "Checkout" button after reviewing the order and adding his address.</li>
+<li>The checkout page shows input fields for payment information and a button place order button is displayed.</li>
+<li>The visitor adds the required details.</li>
+<li>The visitor clicks on the place order button.</li>
+<li>The payment information is validated.</li>
+<li>An email is sent to the visitor with shipping details and order details.</li>
+<li>The visitor is registered as a member without a password.</li>
+</ol>
+<h3><strong>Postconditions</strong></h3>
+<ol>
+<li>The database is updated with the order information.</li>
+<li>The database is updated with the member information.</li>
+</ol>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>5.1 Invalid payment details<br /></strong></p>
+<p style="padding-left: 60px;">if the payment information is invalid, then</p>
+<p style="padding-left: 90px;">5.1.1. An error message will show to the visitor indicating that the payment information is invalid.</p>
+<p style="padding-left: 90px;">5.1.2 The use case resumes at step 2.</p>

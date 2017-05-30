@@ -1,0 +1,37 @@
+<h2 style="text-align: center;"><strong>93 - Update product data<br /></strong></h2>
+<p><strong>Primary Actors</strong></p>
+<ul>
+<li>Vendor</li>
+</ul>
+<p><strong>Preconditions</strong></p>
+<ol>
+<li>Vendor has been logged in to his account.</li>
+<li>Vendor has already added at least one product.</li>
+</ol>
+<p><strong>Basic Flow (Happy Path)</strong></p>
+<ol>
+<li>Vendor navigates to vendor panel.</li>
+<li>Vendor clicks on a specific product title from list all products page.</li>
+<li>The page shows input fields for product details which is Code, Title, Description, Category Name, Brand, Price, Specifications, Key features, Image, sub category and a flag for featured product is displayed.</li>
+<li>All of the input fields are filled with the current product details.</li>
+<li>The page has a grey (unavailable) update button.</li>
+<li>Vendor updates product title and price.</li>
+<li>The update button becomes blue (available).</li>
+<li>Vendor clicks on the update button.</li>
+<li>The product details are validated.</li>
+<li>The update button becomes grey (unavailable) again, indicating that the product details were updated.</li>
+</ol>
+<p><strong>Postcondition</strong></p>
+<ol>
+<li>The product details are updated.</li>
+<li>The update is reflected to members and visitors.</li>
+</ol>
+<p><strong>Alternative Flow</strong></p>
+<p style="padding-left: 30px;"><strong>9.1 New price contains a currency symbol<br /></strong></p>
+<p style="padding-left: 60px;">if vendor provides a new price with a currency sybmol, then</p>
+<p style="padding-left: 90px;">9.1.1. An error message shows to indicate that the price provided is invalid.</p>
+<p style="padding-left: 90px;">9.1.2 The use case resumes at step 3.</p>
+<p style="padding-left: 30px;"><strong>9.2 Empty title<br /></strong></p>
+<p style="padding-left: 60px;">if vendor removed the product title, then</p>
+<p style="padding-left: 90px;">9.2.1. An error message will show indicating that the title is required for the product.</p>
+<p style="padding-left: 90px;">9.2.2 The use case resumes at step 3.</p>

@@ -1,0 +1,24 @@
+Order		: 9
+
+Id		: 2116
+
+Title		: Provide paging for products listing
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to have a paging method to navigate between different pages which displays the products 
+		which I'm looking for.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* 20 items displayed per page by default, but this number can be changed from settings.
+		* Two navigation buttons to the left ( << and < ) and two navigation buttons on the right(> and >>).
+		* Five page numbers between buttons should be available, the third one indicates the current page and is 
+		  highlighted.
+		* When the visitor clicks on any of the page buttons, he will be navigated to the page with the same number.
+		* When the visitor clicks on the '<' button, he will be navigated to the previous page.
+		* When the visitor clicks on the '<<' button, he will be navigated to the first page.
+		* When the visitor clicks on the '>' button, he will be navigated to the next page.
+		* When the visitor clicks on the '>>' button, he will be navigated to the last page.

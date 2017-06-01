@@ -1,0 +1,11 @@
+Order		: 23
+
+Id		: 5
+
+Title		: Provide a membership for user
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to have membership in application as user, I want to create an account by using my 
+		email address so that I can track transactions, wishlist, etc.

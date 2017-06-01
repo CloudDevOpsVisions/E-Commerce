@@ -1,0 +1,10 @@
+Order		: 34
+
+Id		: 2118
+
+Title		: View order details
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to have a page to view a single order details so I can check any order information.

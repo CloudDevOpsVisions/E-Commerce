@@ -1,0 +1,12 @@
+Order		: 13
+
+Id		: 202
+
+Title		: Display/hide special offer for products
+
+Tags		: BWF, Private, Admin
+
+Description	: 
+		As an admin, I want to display/hide special offer from special offer list in admin panel so that it will be 
+		displayed/hidden from user website.
+

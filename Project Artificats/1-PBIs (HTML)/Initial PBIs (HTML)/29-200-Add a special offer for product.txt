@@ -1,0 +1,11 @@
+Order		: 29
+
+Id		: 200
+
+Title		: Add a special offer for product
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to add special offer along with special images for product so that users can see special 
+		offers in special way.

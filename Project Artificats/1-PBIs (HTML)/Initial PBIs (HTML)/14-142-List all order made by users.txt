@@ -1,0 +1,11 @@
+Order		: 14
+
+Id		: 142
+
+Title		: List all order made by users
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to see list of all orders made by users in vendor panel so that I can find and manage desired 
+		order.

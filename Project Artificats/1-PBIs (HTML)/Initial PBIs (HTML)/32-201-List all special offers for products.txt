@@ -1,0 +1,10 @@
+Order		: 32
+
+Id		: 201
+
+Title		: List all special offers for products
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to see list of all added special offer in vendor panel so that I can manage them.

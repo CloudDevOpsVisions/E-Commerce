@@ -1,0 +1,11 @@
+Order		: 18
+
+Id		: 57
+
+Title		: Review products in shopping cart
+
+Tags		: BWF, Public, Vistor
+
+Description	: 
+		As a visitor, I want to review the details of the content for the shopping cart at anytime so that I 
+		can correct any mistake.

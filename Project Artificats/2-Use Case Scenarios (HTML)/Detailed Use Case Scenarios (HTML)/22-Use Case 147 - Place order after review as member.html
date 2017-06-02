@@ -1,0 +1,25 @@
+<h2 style="text-align: center;"><strong>147 - Place order after review as member<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Member</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Member has been logged successfully to his account.</li>
+<li>Member has already added at least one item into his shopping cart.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Member clicks on "Checkout" button after reviewing his order.</li>
+<li>The address confirmation page shows Default address and two buttons for Use Default Address and Use Another Address is displayed.</li>
+<li>The Member clicks on Use Default Address.</li>
+<li>The checkout page shows the current payment information as hiddent text and two buttons for Use Default Payment Method and Use Another Payment Method is displayed.</li>
+<li>Member clicks on Use Default Payment Method.</li>
+<li>A confirmation email is sent to the member with shipping details and order details.</li>
+</ol>
+<h3>Postconditions</h3>
+<ol>
+<li>The database is updated with the order information.</li>
+</ol>
+<h3>Alternative Flow</h3>
+<p style="padding-left: 30px;">None.</p>

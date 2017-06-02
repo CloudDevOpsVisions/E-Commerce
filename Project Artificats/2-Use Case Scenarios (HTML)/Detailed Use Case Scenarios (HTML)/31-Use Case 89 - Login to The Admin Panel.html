@@ -1,0 +1,30 @@
+<h2 style="text-align: center;"><strong>89 - Login to The Admin Panel</strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Admin</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Admin account already exists.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Admin navigates to the home page.</li>
+<li>Admin clicks on the Sign In link.</li>
+<li>The login page shows username and password input fields, a Remember Me checkbox, a Reset Password link and a Create Account link is displayed.</li>
+<li>Admin enters his username and his password.</li>
+<li>Admin checks the Remember me button.</li>
+<li>Admin clicks on the login button.</li>
+<li>The admin credentials are validated.</li>
+<li>Admin is redirected to admin panel.</li>
+</ol>
+<h3><strong>Postconditions</strong></h3>
+<ol>
+<li>The admin has been logged in successfully.</li>
+<li>Admin is kept logged in, so for his next visit to the site he won't need to re-enter his username and password.</li>
+</ol>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>7.1 Invalid Username or Password</strong></p>
+<p style="padding-left: 60px;">if the username or password provided by admin is invalid, then</p>
+<p style="padding-left: 90px;">7.1.1. An error message will show indicating that the username or password is invalid.</p>
+<p style="padding-left: 90px;">7.1.2 The use case resumes at step 3.</p>

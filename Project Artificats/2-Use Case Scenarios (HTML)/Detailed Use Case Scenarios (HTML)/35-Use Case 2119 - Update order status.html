@@ -1,0 +1,26 @@
+<h2 style="text-align: center;"><strong>2119 - Update order status</strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Vendor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Vendor has been logged in to his account.</li>
+<li>At least one order was made to the vendor.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Vendor navigates to list all orders page.</li>
+<li>The list all orders page is displayed.</li>
+<li>The page has a save button which is gray (unavailable).</li>
+<li>The vendor clicks on the Order status for a specific order, and changes it to completed.</li>
+<li>The save buttons becomes blue (available) indicating that there changes to be saved.</li>
+<li>The vendor clicks on the save button.</li>
+<li>The save button becomes gray again.</li>
+</ol>
+<h3><strong>Postcondition</strong></h3>
+<ol>
+<li>The order status for the specified order is updated in the database.</li>
+</ol>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;">None.</p>

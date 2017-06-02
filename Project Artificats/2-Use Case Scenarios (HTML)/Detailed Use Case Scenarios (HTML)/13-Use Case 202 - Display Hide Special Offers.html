@@ -1,0 +1,41 @@
+<h2 style="text-align: center;"><strong>202 - Display/hide special offer for products</strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Admin</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Admin has been logged successfully to his account.</li>
+<li>Admin has been authorized to change the displayed offers.</li>
+<li>Vendors have already added at least three offers.</li>
+<li>No special offers are selected.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Admin navigates to the admin panel.</li>
+<li>Admin clicks on the special offers link.</li>
+<li>The special offers list page is displayed, showing the first 20 offers in rows ordered by recent start date.</li>
+<li>Each row shows a checkbox, vendor name, offer title, product name, offer start date, offer end date, offer price and discount.</li>
+<li>There is a paging area where admin can navigate between different pages which displays the rest of the offers.</li>
+<li>There is a save button which is gray (unavailable) indicating that there are no changes to be saved.</li>
+<li>Admin checks 3 offers, each of which is highlighted once checked.</li>
+<li>The save button becomes blue (available) indicating that there are changes to be saved.</li>
+<li>Admin clicks on the save button.</li>
+<li>Admin choices are validated.</li>
+<li>The save button becomes gray (unavailable) indicating that the changes have been saved.</li>
+<li>The list is updated reordered by checked offers then by recent start date.</li>
+</ol>
+<h3>Postconditions</h3>
+<ol>
+<li>The special offers slider in home page is updated with the three offers chosen by admin.</li>
+</ol>
+<h3><strong>Alternative Flow</strong></h3>
+<p style="padding-left: 30px;"><strong>10.1 Admin checked 4 offers<br /></strong></p>
+<p style="padding-left: 60px;">if admin checks 4 offers, then</p>
+<p style="padding-left: 90px;">10.1.1. An error message will show indicating that the maximum number of special offers allowed is 3.</p>
+<p style="padding-left: 90px;">10.1.2 The use case resumes at step 3.</p>
+<p style="padding-left: 30px;"><strong>10.2 An Offer end date has already passed<br /></strong></p>
+<p style="padding-left: 60px;">if admin checks an offer which has an end date that already passed, then</p>
+<p style="padding-left: 90px;">10.2.1. And error message will show indicating that one or more of the selected offers has already ended.</p>
+<p style="padding-left: 90px;">10.2.2 The offer with past date is unchecked and unhighlighted.</p>
+<p style="padding-left: 90px;">10.2.3 The use case resumes at step 3.</p>

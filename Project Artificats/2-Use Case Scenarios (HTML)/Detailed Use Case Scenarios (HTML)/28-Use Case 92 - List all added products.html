@@ -1,0 +1,26 @@
+<h2 style="text-align: center;"><strong>92 - List all added products<br /></strong></h2>
+<p><strong>Primary Actors</strong></p>
+<ul>
+<li>Vendor</li>
+</ul>
+<p><strong>Preconditions</strong></p>
+<ol>
+<li>Vendor has been logged in to his account.</li>
+<li>Vendor has already added at least one product.</li>
+</ol>
+<p><strong>Basic Flow (Happy Path)</strong></p>
+<ol>
+<li>Vendor navigates to vendor panel.</li>
+<li>Vendor clicks on list all products link.</li>
+<li>The product list page is displayed, showing the first 20 products in rows ordered by product title.</li>
+<li>Each row shows a single product details, which is Product Id, Title, Price and a delete icon.</li>
+<li>The product title is also a link to view and update product details.</li>
+<li>There is a paging area where vendor can navigate between different pages which displayes the rest of the products.</li>
+</ol>
+<p><strong>Postcondition</strong></p>
+<p style="padding-left: 30px;">None</p>
+<p><strong>Alternative Flow</strong></p>
+<p style="padding-left: 30px;"><strong>3.1 The number of products per page is set to 30<br /></strong></p>
+<p style="padding-left: 60px;">if the settings were modified to show 30 products per page, then</p>
+<p style="padding-left: 90px;">3.1.1. The list will show 30 products instead of 20.</p>
+<p style="padding-left: 90px;">3.1.2 The use case resumes at step 4.</p>

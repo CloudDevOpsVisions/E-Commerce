@@ -1,0 +1,34 @@
+<h2 style="text-align: center;"><strong>96 - Add a product to the store<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Vendor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Vendor has been logged in to his account.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Vendor navigates to the vendor panel.</li>
+<li>Vendor clicks on the add product link.</li>
+<li>The add product page shows input for product details which is Code, Title, Description, Category Name, Brand, Price, Specifications, Key features, Image, also some optional information such as sub category, discount and flag for featured product is displayed.</li>
+<li>The page has a grey (unavailable) save button.</li>
+<li>Vendor enters the product information.</li>
+<li>The save button becomes blue (available).</li>
+<li>Vendor clicks on the save button.</li>
+<li>The product details are validated.</li>
+<li>The key becomes grey again, indicating that the product was saved.</li>
+</ol>
+<h3><strong>Postconditions</strong></h3>
+<ol>
+<li>The product is now visible to members and visitors.</li>
+</ol>
+<p><strong>Alternative Flow</strong></p>
+<p style="padding-left: 30px;"><strong>8.1 Price contains a currency symbol<br /></strong></p>
+<p style="padding-left: 60px;">if vendor provides a price with a currency sybmol, then</p>
+<p style="padding-left: 90px;">8.1.1. An error message shows to indicate that the price provided is invalid.</p>
+<p style="padding-left: 90px;">8.1.2 The use case resumes at step 3.</p>
+<p style="padding-left: 30px;"><strong>8.2 No category assigned<br /></strong></p>
+<p style="padding-left: 60px;">if vendor doesn't provide a specific product category, then</p>
+<p style="padding-left: 90px;">8.2.1. An error message will show indicating that the category is required for the product.</p>
+<p style="padding-left: 90px;">8.2.2 The use case resumes at step 3.</p>

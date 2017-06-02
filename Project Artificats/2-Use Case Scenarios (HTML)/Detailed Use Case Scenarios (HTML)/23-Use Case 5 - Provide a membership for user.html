@@ -1,0 +1,41 @@
+<h2 style="text-align: center;"><strong>5 - Provide a membership for user<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Visitor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>None</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Visitor navigates to the home page.</li>
+<li>Visitor clicks on the Sign In link.</li>
+<li>Visitor is redirected to the login page.</li>
+<li>Visitor clicks on Create Account link from the login page.</li>
+<li>The registeration page shows input fields for First name, Last name, Email, Phone, Username, Age, Gender, Password, Password confirmation, City, State name, Postal code, Country name and Address is displayed.</li>
+<li>The page has a Sign Up button.</li>
+<li>The visitor enters the required information.</li>
+<li>The visitor clicks on the Sign Up button.</li>
+<li>The visitor details is validated.</li>
+<li>The system sends a welcome email to the user.</li>
+<li>Member is redirected to account page.</li>
+</ol>
+<h3><strong>Postconditions</strong></h3>
+<ol>
+<li>The member account is created.</li>
+<li>The member is automatically logged in after registeration.</li>
+</ol>
+<p><strong>Alternative Flow</strong></p>
+<p style="padding-left: 30px;"><strong>9.1 Invalid Email address<br /></strong></p>
+<p style="padding-left: 60px;">if the email provided is invalid, then</p>
+<p style="padding-left: 90px;">9.1.1. An error message will show to the visitor indicating that the email is invalid.</p>
+<p style="padding-left: 90px;">9.1.2 The use case resumes at step 5.</p>
+<p style="padding-left: 30px;"><strong>9.2 Invallid phone number<br /></strong></p>
+<p style="padding-left: 60px;">if the phone number provided is invalid, then</p>
+<p style="padding-left: 90px;">9.2.1. An error message will show to the visitor indicating that the phone number is invalid.</p>
+<p style="padding-left: 90px;">9.2.2 The use case resumes at step 5.</p>
+<p style="padding-left: 30px;"><strong>9.3 Password is too short<br /></strong></p>
+<p style="padding-left: 60px;">if the phone number provided is invalid, then</p>
+<p style="padding-left: 90px;">9.3.1. An error message will show to the visitor indicating that the password is too short and the the minimum length is 6 characters.</p>
+<p style="padding-left: 90px;">9.3.2 The use case resumes at step 5.</p>

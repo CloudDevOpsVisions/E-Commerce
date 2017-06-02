@@ -1,0 +1,34 @@
+<h2 style="text-align: center;"><strong>200 - Add a special offer for product<br /></strong></h2>
+<h3><strong>Primary Actors</strong></h3>
+<ul>
+<li>Vendor</li>
+</ul>
+<h3><strong>Preconditions</strong></h3>
+<ol>
+<li>Vendor have been logged in to his account.</li>
+<li>Vendor has already added at least one product.</li>
+</ol>
+<h3><strong>Basic Flow (Happy Path)</strong></h3>
+<ol>
+<li>Vendor navigates to the vendor panel.</li>
+<li>Vendor clicks on the add special offer link.</li>
+<li>The add special offer page shows input fields for Offer Title, Image, Product Name, Start and end dates is displayed.</li>
+<li>The page has a grey (unavailable) save button.</li>
+<li>Vendor enters few letters of a product in the name product name field.</li>
+<li>A list of product names that contains letters entered by the vendor shows in the product name field.</li>
+<li>Vendor clicks on a specific product name from the list.</li>
+<li>The vendor fills other input fields with the details.</li>
+<li>The save button becomes blue (available).</li>
+<li>The vendor clicks on the save button.</li>
+<li>The offer details are validated.</li>
+<li>The save button becomes grey (unavailable) again, indicating that the offer was saved.</li>
+</ol>
+<h3><strong>Postconditions</strong></h3>
+<ol>
+<li>The offer is now visible to members and visitors.</li>
+</ol>
+<p><strong>Alternative Flow</strong></p>
+<p style="padding-left: 30px;"><strong>11.1 The offer title is too long<br /></strong></p>
+<p style="padding-left: 60px;">if the offer title is more than 20 characters length, then</p>
+<p style="padding-left: 90px;">11.1.1. An error message will show indicating that the provided title is too long.</p>
+<p style="padding-left: 90px;">11.1.2 The use case resumes at step 8.</p>

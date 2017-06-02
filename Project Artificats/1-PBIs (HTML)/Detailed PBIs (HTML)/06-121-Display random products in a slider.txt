@@ -1,0 +1,23 @@
+Order		: 6
+
+Id		: 121
+
+Title		: Display random products in a slider
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to see random products in a slider that exist on the home page so that I can know about 
+		random products.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* One product at a time in slider's page should be displayed.
+		* Two buttons for moving to next one and previous one product in slider should be included.
+		* One products should be loaded in advance from current one (next to current page and previous to current page).
+		* On click on any product from slider, detailed view for that product should be displayed.
+		* Limit number of pages in slider to be maximum 5 (it could be only one page if database does not have enough 
+		  featured products), last item of 5th page should be a link titled "View All".
+		* Last item of last page of slider ("View All") should open all random products on a separate view/page where 
+		  product taken randomly from each category will be displayed.

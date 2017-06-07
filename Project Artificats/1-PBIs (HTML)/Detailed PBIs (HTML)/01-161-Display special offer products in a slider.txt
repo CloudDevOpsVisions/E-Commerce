@@ -17,3 +17,4 @@ Acceptance Criteria	:
 		* Buttons for moving between all three products in slider should be included.
 		* All three products should be loaded at once.
 		* On click on any product from slider, detailed view for that product should be displayed.
+		

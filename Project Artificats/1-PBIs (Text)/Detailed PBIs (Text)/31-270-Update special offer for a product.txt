@@ -1,0 +1,11 @@
+Order		: 31
+
+Id		: 270
+
+Title		: Update special offer for a product
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to update a special offer so that I can change the special offer data.
+		

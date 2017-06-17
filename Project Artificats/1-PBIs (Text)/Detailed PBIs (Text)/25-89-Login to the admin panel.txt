@@ -1,0 +1,13 @@
+Order		: 25
+
+Id		: 89
+
+Title		: Login to the admin panel
+
+Tags		: BWF, Private, Admin
+
+Description	: 
+		As an admin, I want to login to the admin panel so that I can manage the application for 
+		different areas, also an option to remember my credentials should be there so that when I 
+		visit the admin panel next time, it doesn't require me to re-enter credentials again for login.
+		

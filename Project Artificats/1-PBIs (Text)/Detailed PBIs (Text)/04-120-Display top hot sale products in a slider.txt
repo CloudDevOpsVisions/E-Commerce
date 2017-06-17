@@ -1,0 +1,12 @@
+Order		: 4
+
+Id		: 120
+
+Title		: Display top hot sale products in a slider
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to view hot sale products in a slider on the home page so that I can
+		view the hot sale products and buy from them.
+		

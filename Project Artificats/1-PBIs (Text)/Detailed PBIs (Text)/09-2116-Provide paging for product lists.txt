@@ -1,0 +1,12 @@
+Order		: 9
+
+Id		: 2116
+
+Title		: Provide paging for product lists
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to have a paging method to navigate between different pages which 
+		displays the products which I'm looking for.
+		

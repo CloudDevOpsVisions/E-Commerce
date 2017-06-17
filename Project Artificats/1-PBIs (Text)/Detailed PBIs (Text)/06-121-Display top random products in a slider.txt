@@ -1,0 +1,11 @@
+Order		: 6
+
+Id		: 121
+
+Title		: Display top random products in a slider
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to view random products in a slider on the home page so that 
+		I can view random products and buy from them.

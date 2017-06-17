@@ -1,0 +1,14 @@
+Order		: 23
+
+Id		: 146
+
+Title		: Login to the member site
+
+Tags		: BWF, Public, Member
+
+Description	: 
+		As a member, I want to login into the application so that I can manage my membership like reviewing 
+		my previous orders or shipping/delivery address etc, also an option to remember my credentials should 
+		be there so that when I visit the application next time, it doesn't require me to re-enter credentials 
+		again for login.
+		

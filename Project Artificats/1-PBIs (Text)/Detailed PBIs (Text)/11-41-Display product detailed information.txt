@@ -1,0 +1,12 @@
+Order		: 11
+
+Id		: 41
+
+Title		: Display product detailed information
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to view a detailed product information in a separate view so that
+		I can view more about the selected product.
+		

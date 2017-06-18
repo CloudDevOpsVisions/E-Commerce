@@ -1,0 +1,12 @@
+Order		: 24
+
+Id		: 271
+
+Title		: Login to the vendor panel
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to login to the vendor panel so that I can manage the application for 
+		different areas, also an option to remember my credentials should be there so that when I visit 
+		the vendor panel next time, it doesn't require me to re-enter credentials again for login.

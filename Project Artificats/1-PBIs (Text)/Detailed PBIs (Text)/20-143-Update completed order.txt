@@ -1,0 +1,11 @@
+Order		: 20
+
+Id		: 143
+
+Title		: Update completed order
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to update an order in vendor panel so that I can correct any mistake that might exist.
+		

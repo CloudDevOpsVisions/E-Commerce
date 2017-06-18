@@ -1,0 +1,11 @@
+Order		: 19
+
+Id		: 142
+
+Title		: Display all order made by visitors and members
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to view a list of all orders made by visitors and members in vendor 
+		panel so that I can find and manage desired order.

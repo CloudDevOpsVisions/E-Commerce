@@ -1,0 +1,16 @@
+Order		: 10
+
+Id		: 37
+
+Title		: Access shopping cart from the home page
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to view icon/button of the shopping cart on the home page, so that I can 
+		quickly access my shopping cart. Also, I want to view product count of added products and total 
+		price on shopping cart icon/button so that I can view how many products have been added to  the 
+		shopping cart and how much money I’m going to pay.
+
+
+		

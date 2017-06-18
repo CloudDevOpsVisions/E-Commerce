@@ -1,0 +1,12 @@
+Order		: 16
+
+Id		: 59
+
+Title		: Review order before checkout
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to review the shopping cart details along with delivery address 
+		before proceeding to checkout so that I can correct any mistake that might exist.
+		

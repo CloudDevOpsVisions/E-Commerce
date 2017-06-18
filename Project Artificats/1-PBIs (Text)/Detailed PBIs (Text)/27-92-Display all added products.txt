@@ -1,0 +1,10 @@
+Order		: 27
+
+Id		: 92
+
+Title		: Display all added products
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to view my added products as list in vendor panel so that I can manage them.

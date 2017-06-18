@@ -1,0 +1,11 @@
+Order		: 3
+
+Id		: 28
+
+Title		: Display top new arrival products in a slider
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to view top new arrival products in a slider on the home page so that I can 
+		view the new arrival products and buy from them.

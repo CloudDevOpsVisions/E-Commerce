@@ -1,0 +1,12 @@
+Order		: 8
+
+Id		: 139
+
+Title		: Display products of a selected category
+
+Tags		: BWF, Public, Visitor
+
+Description	: 
+		As a visitor, I want to navigate and select a main or a sub category from categories so that I can 
+		view all products in that category.
+		

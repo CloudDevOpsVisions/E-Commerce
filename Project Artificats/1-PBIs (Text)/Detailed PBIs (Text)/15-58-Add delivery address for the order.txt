@@ -10,3 +10,8 @@ Description	:
 		As a visitor, I want to add addresses during my shopping checkout so that I can specify address 
 		for delivery.
 		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* A full detailed address which includes City, Postal Code, State, Country, Street Address should be saved.
+		* All the above information is required.

@@ -9,3 +9,11 @@ Tags		: BWF, Public, Member
 Description	: 
 		As a member, I want to view my previous orders after login, so that I can view any order 
 		details from my orders.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* Order Id, Order Date, Each product in order with image and title, Status of order should be displayed.
+		* 20 orders/page should be displayed.
+		* number of displayed orders per page should be updateable from settings
+		* There should be paging buttons to move to other pages.

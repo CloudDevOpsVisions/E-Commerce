@@ -9,3 +9,12 @@ Tags		: BWF, Public, Visitor
 Description	: 
 		As a visitor, I want to review the details for the shopping cart at anytime so that 
 		I can correct any mistake that might exist.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* Title, Price, Quantity, Image, Discount and Shipping details should be displayed for
+		  each added product.
+		* Buttons to add/remove products from shopping cart should be displayed.
+		* Checkout button should be displayed.
+		* Continue shopping button should be displayed.

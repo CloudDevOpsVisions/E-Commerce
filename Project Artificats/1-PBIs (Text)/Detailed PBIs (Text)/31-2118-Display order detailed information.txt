@@ -1,0 +1,20 @@
+Order		: 31
+
+Id		: 2118
+
+Title		: Display order detailed information
+
+Tags		: BWF, Private, Vendor
+
+Description	: 
+		As a vendor, I want to view a detailed order information in a separate view so that I can 
+		view more about the selected order.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* First Name, Last Name, Email, Phone, City, State, Postal Code, Country, Address of shipping 
+		  details (delivery address) of the order maker should be included.
+		* Image, Title, Quantity, Price, Discount, Total amount and Gift Wrap option of added products
+		  should be included.
+		* Each of displayed details can be changed by clicking on it.

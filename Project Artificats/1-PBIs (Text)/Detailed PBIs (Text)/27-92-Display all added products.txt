@@ -8,3 +8,13 @@ Tags		: BWF, Private, Vendor
 
 Description	: 
 		As a vendor, I want to view my added products as list in vendor panel so that I can manage them.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* Product Id, Title and Price of products should be displayed.
+		* There should be link to update product with each product.
+		* There should be link to delete product with each product.
+		* 20 products/page can be displayed.
+		* I could change the number of the displayed product from the settings.
+		* There should be paging buttons to move to other pages.

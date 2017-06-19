@@ -10,3 +10,9 @@ Description	:
 		As a visitor, I want to navigate and select a main or a sub category from categories so that I can 
 		view all products in that category.
 		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* All related products of selected category should be displayed in a list.
+		* 20 products/page should be displayed by default.
+		* A paging buttons should be displayed for navigation between other products pages.

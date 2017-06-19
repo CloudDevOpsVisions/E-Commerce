@@ -12,5 +12,14 @@ Description	:
 		price on shopping cart icon/button so that I can view how many products have been added to  the 
 		shopping cart and how much money I’m going to pay.
 
-
+Acceptance Criteria	:
 		
+	Action Criteria	:	
+		* Shopping cart icon/button with number of items in the cart and total price of products should be displayed.
+		* A floating dialog that display a summary of shopping cart should be displayed when shopping cart is clicked
+		  , includes:
+			+ Number of products along with small product image.
+			+ Total price of all products.
+			+ Button/link to remove a listed product from shopping cart.
+			+ Button/link to view detailed view/page of shopping cart.
+			+ Button/link to checkout.

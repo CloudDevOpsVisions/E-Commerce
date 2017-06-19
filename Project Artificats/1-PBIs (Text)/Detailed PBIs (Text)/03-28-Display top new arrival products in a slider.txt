@@ -9,3 +9,14 @@ Tags		: BWF, Public, Visitor
 Description	: 
 		As a visitor, I want to view top new arrival products in a slider on the home page so that I can 
 		view the new arrival products and buy from them.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* Three product at a time in slider's page should be displayed.
+		* buttons for moving to next three and previous three products in slider should be included.
+		* Three products should be loaded in advance from current one (next to current page and previous to current page).
+		* A detailed view for a product should be displayed when clicked from slider
+		* Limit number of pages in slider to be maximum 5 (it could be only one page if database does not have enough featured products),
+		  last item of 5th page should be a link titled "View All".
+		* Last item of last page of slider ("View All") should open all featured products on a separate view/page.

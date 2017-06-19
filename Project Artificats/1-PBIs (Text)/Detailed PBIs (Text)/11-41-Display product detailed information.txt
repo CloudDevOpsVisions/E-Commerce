@@ -10,3 +10,9 @@ Description	:
 		As a visitor, I want to view a detailed product information in a separate view so that
 		I can view more about the selected product.
 		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* Title, description, image, price, discount, stock availability of product should be displayed.
+		* Key features of product should be displayed.
+		* Full specifications with all details of product should be displayed.

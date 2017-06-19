@@ -11,3 +11,20 @@ Description	:
 		different areas, also an option to remember my credentials should be there so that when I 
 		visit the admin panel next time, it doesn't require me to re-enter credentials again for login.
 		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* Option to remember credentials should be included.
+		* Link for registration should be included.
+		* Link to recover password should be included.
+		* On login failure, a failure message should be shown.
+		* On login success, user redirects to admin panel.
+		
+	Input Validation Criteria : 
+		+---------------+----------+------+------+--------+---+-------+--------------------------------------------------+
+		|Field          |Data      |Hidden|Unique|Required|Min|Max    |Format                                            |
+		+---------------+----------+------+------+--------+---+-------+--------------------------------------------------+
+		|Username       |Text      |N     |Y     |Y       |3  |20     |A-Z or a-z or 0-9 or space                        |
+		------------------------------------------------------------------------------------------------------------------
+		|Password       |Text      |N     |N     |Y       |6  |20     |A-Z or a-z or 0-9 or any special character        |
+		+----------------------------------------------------------------------------------------------------------------+

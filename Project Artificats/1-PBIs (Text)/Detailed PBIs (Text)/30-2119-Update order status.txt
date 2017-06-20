@@ -1,4 +1,4 @@
-Order		: 34
+Order		: 30
 
 Id		: 2119
 
@@ -10,3 +10,8 @@ Description	:
 		As a vendor, I want to change order status from within list all orders page with no need 
 		to edit the whole order.
 		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* The order status can be changed with no need to navigate to view/update order page.
+		* Status change is reflected immediately.

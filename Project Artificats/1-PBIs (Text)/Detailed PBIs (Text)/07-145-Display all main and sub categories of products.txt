@@ -10,3 +10,10 @@ Description	:
 		As a visitor, I want to view all main and sub categories of products on the home page so that I can 
 		easily navigate and select the required category.
 		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* All categories should be displayed in a list.
+		* All subcategories of a list should be displayed in the same list.
+		* All displayed categories should be dynamically fetched.
+		* A detailed view/page of a category/subcategory should be displayed when clicked.

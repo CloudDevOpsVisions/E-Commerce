@@ -9,3 +9,10 @@ Tags		: BWF, Public, Visitor
 Description	: 
 		As a visitor, I want to navigate between different pages which displays the products I'm looking for.
 		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* 20 items should be displayed per page by default, but this number can be changed from settings.
+		* Two navigation buttons for navigation between next and previous page should be displayed.
+		* Two navigation buttons for navigation to first and last page should be displayed
+		* Buttons for page numbers including the current page should be displayed.

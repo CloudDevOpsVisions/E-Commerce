@@ -4,7 +4,7 @@ Id		: 145
 
 Title		: Display all main and sub categories of products
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want to view all main and sub categories of products on the home page so that I can 

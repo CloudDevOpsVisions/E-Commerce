@@ -4,7 +4,7 @@ Id		: 96
 
 Title		: Add product to the store
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want to add a new product to the store to be displayed on the site so 

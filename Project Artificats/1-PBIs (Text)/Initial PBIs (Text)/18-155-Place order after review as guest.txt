@@ -4,7 +4,7 @@ Id		: 155
 
 Title		: Place order after review as guest
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want an option to place an order after review so that I can get those products.

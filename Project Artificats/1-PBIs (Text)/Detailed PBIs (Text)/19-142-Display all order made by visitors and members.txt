@@ -4,7 +4,7 @@ Id		: 142
 
 Title		: Display all order made by visitors and members
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want to view a list of all orders made by visitors and members in vendor 

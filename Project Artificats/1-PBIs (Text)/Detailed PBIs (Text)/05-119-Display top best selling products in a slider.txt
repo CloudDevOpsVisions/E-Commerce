@@ -4,7 +4,7 @@ Id		: 119
 
 Title		: Display top best selling products in a slider
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want to view best selling products in a slider on the home page so that 

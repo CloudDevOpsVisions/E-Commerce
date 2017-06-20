@@ -4,7 +4,7 @@ Id		: 2119
 
 Title		: Update order status
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want to change order status from within list all orders page with no need 

@@ -4,7 +4,7 @@ Id		: 96
 
 Title		: Add a product to the store
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want an option to add new products to be displayed on the app so that I can sell my products.

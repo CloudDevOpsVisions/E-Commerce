@@ -4,7 +4,7 @@ Id		: 5
 
 Title		: Provide membership for visitors
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want to have a membership in the application as a member, I want to 

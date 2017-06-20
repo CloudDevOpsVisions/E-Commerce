@@ -4,7 +4,7 @@ Id		: 63
 
 Title		: Display orders history for members
 
-Tags		: BWF, Public, Member
+Tags		: BWF, Public, Member, Web
 
 Description	: 
 		As a member, I want to view my previous orders after login, so that I can view any order 

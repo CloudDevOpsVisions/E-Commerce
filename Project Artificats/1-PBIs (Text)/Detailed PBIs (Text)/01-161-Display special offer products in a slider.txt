@@ -4,7 +4,7 @@ Id		: 161
 
 Title		: Display special offer products in a slider
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want to view special offers for products in a slider that exists on the home page as a banner so that

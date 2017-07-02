@@ -4,7 +4,7 @@ Id		: 2118
 
 Title		: Display order detailed information
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want to view a detailed order information in a separate view so that I can 

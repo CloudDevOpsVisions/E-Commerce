@@ -4,7 +4,7 @@ Id		: 139
 
 Title		: Display products of a selected category
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want to select a main or sub category from category list so that I can see what are the products 

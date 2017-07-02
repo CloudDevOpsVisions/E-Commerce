@@ -4,7 +4,7 @@ Id		: 93
 
 Title		: Update product data
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want an option to update added products, this option can be given in product list 

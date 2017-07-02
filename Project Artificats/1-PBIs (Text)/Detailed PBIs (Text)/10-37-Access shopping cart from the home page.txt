@@ -4,7 +4,7 @@ Id		: 37
 
 Title		: Access shopping cart from the home page
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want to view icon/button of the shopping cart on the home page, so that I can 

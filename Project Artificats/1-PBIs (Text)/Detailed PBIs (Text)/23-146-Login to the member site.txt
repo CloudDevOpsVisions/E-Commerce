@@ -4,7 +4,7 @@ Id		: 146
 
 Title		: Login to the member site
 
-Tags		: BWF, Public, Member
+Tags		: BWF, Public, Member, Web
 
 Description	: 
 		As a member, I want to login into the application so that I can manage my membership like reviewing 

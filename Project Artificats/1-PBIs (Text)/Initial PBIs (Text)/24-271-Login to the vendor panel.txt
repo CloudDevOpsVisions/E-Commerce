@@ -4,7 +4,7 @@ Id		: 271
 
 Title		: Login to the vendor panel
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want an option to login to the vendor panel so that I can manage the application for 

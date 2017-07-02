@@ -4,7 +4,7 @@ Id		: 57
 
 Title		: Display special offer products in a slider
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want to review the details for the shopping cart at anytime so that 

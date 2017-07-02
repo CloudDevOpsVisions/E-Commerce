@@ -4,7 +4,7 @@ Id		: 57
 
 Title		: Review products in shopping cart
 
-Tags		: BWF, Public, Vistor
+Tags		: BWF, Public, Vistor, Web
 
 Description	: 
 		As a visitor, I want to review the details of the content for the shopping cart at anytime so that I 

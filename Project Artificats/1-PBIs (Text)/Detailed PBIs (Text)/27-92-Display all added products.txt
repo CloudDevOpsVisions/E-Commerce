@@ -4,7 +4,7 @@ Id		: 92
 
 Title		: Display all added products
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want to view my added products as list in vendor panel so that I can manage them.

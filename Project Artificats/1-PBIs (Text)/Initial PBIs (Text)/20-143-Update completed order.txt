@@ -4,7 +4,7 @@ Id		: 143
 
 Title		: Update completed order
 
-Tags		: BWF, Private, Vendor
+Tags		: BWF, Private, Vendor, Web
 
 Description	: 
 		As a vendor, I want an option to update an order in vendor panel so that I can correct any mistake that might 

@@ -4,7 +4,7 @@ Id		: 89
 
 Title		: Login to the admin panel
 
-Tags		: BWF, Private, Admin
+Tags		: BWF, Private, Admin, Web
 
 Description	: 
 		As an admin, I want an option to login to the admin panel so that I can manage the application for 

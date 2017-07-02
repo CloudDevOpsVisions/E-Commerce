@@ -4,7 +4,7 @@ Id		: 58
 
 Title		: Add delivery address for the order
 
-Tags		: BWF, Public, Visitor
+Tags		: BWF, Public, Visitor, Web
 
 Description	: 
 		As a visitor, I want to add addresses during my shopping checkout so that I can specify address 

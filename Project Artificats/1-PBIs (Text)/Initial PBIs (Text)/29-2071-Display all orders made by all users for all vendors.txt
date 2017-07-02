@@ -1,0 +1,11 @@
+Order		: 29
+
+Id		: 2071
+
+Title		: Display all orders made by all users for all vendors
+
+Tags		: BWF, Private, Admin, Web
+
+Description	: 
+		As an admin, I want to see list of all orders made by all users to all vendors in admin panel so that I can 
+		find and manage desired order.

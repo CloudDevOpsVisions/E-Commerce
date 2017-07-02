@@ -1,0 +1,21 @@
+Order		: 12
+
+Id		: 75
+
+Title		: Add product to the shopping cart
+
+Tags		: BWF, Public, Visitor, Web
+
+Description	: 
+		As a visitor, I want to add a product to my cart with a single click when viewing 
+		products so that I can quickly put the product I want to purchase into my cart.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:
+		* A click on "Add to cart" button for a product should add it to the shopping cart.
+		* Multiple clicks on "Add to cart" should increase the quantity of the added product.
+		* A popup window indicating that the selected product was added to the shopping cart should
+		  smoothly appears and after 3 seconds smoothly disappears when a product is added.
+
+		

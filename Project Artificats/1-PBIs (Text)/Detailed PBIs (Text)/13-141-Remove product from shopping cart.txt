@@ -1,0 +1,19 @@
+Order		: 13
+
+Id		: 141
+
+Title		: Remove product from shopping cart
+
+Tags		: BWF, Public, Visitor, Web
+
+Description	: 
+		As a visitor, I want to remove a product from shopping cart by a button/link so that 
+		I can remove unwanted products from my shopping cart.
+		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* A Remove button should be displayed for each product in shopping cart.
+		* A Product should be removed from shopping cart by clicking on remove button.
+		* Shopping cart price, quantity and total should be updated when a product is removed 
+		  from the shopping cart.

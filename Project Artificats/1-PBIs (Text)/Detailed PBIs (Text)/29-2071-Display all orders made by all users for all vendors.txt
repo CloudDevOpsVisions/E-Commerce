@@ -1,0 +1,22 @@
+Order		: 29
+
+Id		: 2071
+
+Title		: Display all orders made by all users for all vendors
+
+Tags		: BWF, Private, Admin, Web
+
+Description	: 
+		As an admin, I want to see list of all orders made by all users to all vendors in 
+		admin panel so that I can find and manage desired order.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* Order Id, Order Date, Order Status, Total Product in order, Total Price, Username of 
+		  user who made the order, vendor name who will provide the order, should be displayed.
+		* There should be link to update order with each order.
+		* 20 orders/page should be displayed.
+		* The number of the displayed orders can be changed from the settings.
+		* We can filter the order list by Username or Vendor name
+		* There should be paging buttons to move to other pages.

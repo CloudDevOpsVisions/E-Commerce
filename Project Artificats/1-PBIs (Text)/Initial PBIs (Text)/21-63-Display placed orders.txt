@@ -1,0 +1,11 @@
+Order		: 21
+
+Id		: 63
+
+Title		: Display placed orders
+
+Tags		: BWF, Public, Member, Web
+
+Description	: 
+		As a member, I want to see my placed orders after login, so that I can view any order details 
+		or ordered products from this place.

@@ -1,0 +1,11 @@
+Order		: 15
+
+Id		: 58
+
+Title		: Update completed order
+
+Tags		: BWF, Public, Visitor, Web
+
+Description	: 
+		As a visitor, I want an option to add addresses after clicking "Place Order" on shopping 
+		cart page for delivery so that I can specify address for delivery.

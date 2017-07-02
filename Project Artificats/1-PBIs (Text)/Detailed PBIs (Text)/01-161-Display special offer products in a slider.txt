@@ -1,0 +1,20 @@
+Order		: 1
+
+Id		: 161
+
+Title		: Display special offer products in a slider
+
+Tags		: BWF, Public, Visitor, Web
+
+Description	: 
+		As a visitor, I want to view special offers for products in a slider that exists on the home page as a banner so that
+		I can view the special offers and buy from them.
+		
+Acceptance Criteria	:
+			
+	Action Criteria	:	
+		* Three products in a slider should be displayed.
+		* Buttons for moving between products should be Displayed.
+		* All three products should be loaded at once.
+		* A detailed view for a product should be displayed when clicked from slider
+		

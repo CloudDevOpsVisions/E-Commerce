@@ -1,0 +1,11 @@
+Order		: 30
+
+Id		: 2119
+
+Title		: Update order status
+
+Tags		: BWF, Private, Vendor, Web
+
+Description	: 
+		As a vendor, I want an option to change order status from within list all orders page with no 
+		need to edit the whole order.

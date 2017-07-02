@@ -1,0 +1,20 @@
+Order		: 16
+
+Id		: 59
+
+Title		: Review order before checkout
+
+Tags		: BWF, Public, Visitor, Web
+
+Description	: 
+		As a visitor, I want to review the shopping cart details along with delivery address 
+		before proceeding to checkout so that I can correct any mistake that might exist.
+		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* Image, Title, Quantity, Price, Discount, Total amount and Gift Wrap option for each added product 
+		  should be displayed.
+		* First Name, Last Name, Email, Phone, City, State, Postal Code, Country, Address of shipping details 
+		  (delivery address) should be saved.
+		* Shipping details and adding/removing products from shopping cart should be updateable.

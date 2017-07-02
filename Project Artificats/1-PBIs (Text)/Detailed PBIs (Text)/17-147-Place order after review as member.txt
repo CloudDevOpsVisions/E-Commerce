@@ -1,0 +1,19 @@
+Order		: 17
+
+Id		: 147
+
+Title		: Place order after review as member
+
+Tags		: BWF, Public, Member, Web
+
+Description	: 
+		As a member, I want to place an order after reviewing its details so that I can get those products in email.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* An email should be sent to the email provided for the shipping details containing information about the
+		  order details.
+		* An email should be sent to email of logged in member containing information about purchased products.
+		* If the email provided for the shipping details and email of logged in user are same, A single email should be
+		  sent.

@@ -1,0 +1,22 @@
+Order		: 4
+
+Id		: 120
+
+Title		: Display top hot sale products in a slider
+
+Tags		: BWF, Public, Visitor, Web
+
+Description	: 
+		As a visitor, I want to view hot sale products in a slider on the home page so that I can
+		view the hot sale products and buy from them.
+		
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* One product at a time in slider's page should be displayed.
+		* Buttons for moving to next one and previous one product in slider should be included.
+		* One product should be loaded in advance from current one (next to current page and previous to current page).
+		* A detailed view for a product should be displayed when clicked from slider.
+		* Limit number of pages in slider to be maximum 5 (it could be only one page if database does not have enough featured products), last item of 5th page should be a link titled "View All".
+		* Last item of last page of slider ("View All") should display a link to open all hot sale products on a separate 
+		  view/page where products will be displayed in descending order of their discount amount.

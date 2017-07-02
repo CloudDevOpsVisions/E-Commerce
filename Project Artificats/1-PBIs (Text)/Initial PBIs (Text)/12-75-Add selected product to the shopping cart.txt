@@ -1,0 +1,11 @@
+Order		: 12
+
+Id		: 75
+
+Title		: Add selected product to the shopping cart
+
+Tags		: BWF, Public, Visitor, Web
+
+Description	: 
+		As a visitor, I want to be able to add a product to my cart with a single click when viewing products so that I 
+		can quickly put the product I want to purchase into my cart.

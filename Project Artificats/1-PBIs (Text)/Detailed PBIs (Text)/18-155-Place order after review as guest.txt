@@ -1,0 +1,18 @@
+Order		: 18
+
+Id		: 155
+
+Title		: Place order after review as guest
+
+Tags		: BWF, Public, Visitor, Web
+
+Description	: 
+		As a visitor, I want to place an order after reviewing so that I can get those products in email.
+
+Acceptance Criteria	:
+		
+	Action Criteria	:	
+		* A confirmation email should be sent to the email provided for shipping details containing information
+		  about the order details.
+		* Order information should be stored in database.
+		* Register guest as a member without password.

@@ -1,0 +1,25 @@
+PBI Number	: 37
+
+PBI Title	: Access shopping cart from the home page
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. A product was added to the shopping cart by the visitor.
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to the home page.
+	2. Visitor hovers on the shopping cart icon.
+	3. A dialog shows a summary of the shopping cart is displayed.
+	4. The dialog shows each product information and controls also
+	   it shows the total price, a link to view the shopping cart in details and a link to checkout.
+	5. User hovers out of the dialog to hide it.
+	6. The dialog disappears.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	None

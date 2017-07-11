@@ -1,0 +1,32 @@
+PBI Number	: 146
+
+PBI Title	: Login to the member site
+
+Primary Actors	:
+	1. Member
+
+Preconditions	:
+	1. Member account already exists.
+
+Basic Flow (Happy Path):
+	1. Member navigates to the home page.
+	2. Member clicks on the Sign In option.
+	3. The login page shows input fields for member credentials and remember me option.
+	4. Member enters his username and his password.
+	5. Member checks the Remember me option.
+	6. Member clicks on the login option.
+	7. The member credentials are validated.
+	8. Member is redirected to his profile.
+
+	
+Postconditions	:
+	1. The member has been logged in successfully.
+	2. Member is kept logged in.
+
+
+Alternative Flow:
+	7.1 Invalid credentials
+		if the credentials provided by the member are invalid, then
+			7.1.1. An error message will show indicating that the credentials are
+			       invalid.
+			7.1.2 The use case resumes at step 3.

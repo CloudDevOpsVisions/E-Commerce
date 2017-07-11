@@ -1,0 +1,38 @@
+PBI Number	: 96
+
+PBI Title	: Add product to the store
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+
+Basic Flow (Happy Path):
+	1. Vendor navigates to the vendor panel.
+	2. Vendor clicks on the add product link.
+	3. The add product page shows input for product details which is Code, Title, Description,
+	   Category Name, Brand, Price, Specifications, Key features, Image, also some optional 
+	   information such as sub category, discount and flag for featured product is displayed.
+	4. The page has a disabled save button.
+	5. Vendor enters the product information.
+	6. The save button is enabled.
+	7. Vendor clicks on the save button.
+	8. The product details are validated.
+	9. The button is disabled again, indicating that the product was saved.
+
+	
+Postconditions	:
+	1. The product is visible to members and visitors.
+
+Alternative Flow:
+	8.1 Price contains a currency symbol
+		if vendor provides a price with a currency sybmol, then
+			8.1.1. An error message shows to indicate that the price 
+			       provided is invalid.
+			8.1.2 The use case resumes at step 3.
+	8.2 No category assigned
+		if vendor doesn't provide a specific product category, then
+			8.2.1. An error message will show indicating that the 
+			       category is required for the product.
+			8.2.2 The use case resumes at step 3.

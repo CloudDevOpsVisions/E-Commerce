@@ -1,0 +1,40 @@
+PBI Number	: 93
+
+PBI Title	: Update product data
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+	2. At least one product was already added by the vendor.
+
+Basic Flow (Happy Path):
+	1.  Vendor navigates to vendor panel.
+	2.  Vendor clicks on a specific product title from list all products page.
+	3.  The page shows input fields for product details which is Code, Title, 
+	    Description, Category Name, Brand, Price, Specifications, Key features,
+	    Image, sub category and a flag for featured product is displayed.
+	4.  All of the input fields are filled with the current product details.
+	5.  The page has a disabled update button.
+	6.  Vendor updates product title and price.
+	7.  The update button is active.
+	8.  Vendor clicks on the update button.
+	9.  The product details are validated.
+	10. The update button is disabled again, indicating that 
+	    the product details were updated.
+	
+Postconditions	:
+	1. The product details are updated.
+	2. The update is reflected to members and visitors.
+
+Alternative Flow:
+	9.1 New price contains a currency symbol
+		if vendor provides a new price with a currency sybmol, then
+			9.1.1 An error message shows to indicate that the price provided is invalid.
+			9.1.2 The use case resumes at step 3.
+
+	9.2 Empty title
+		if vendor removed the product title, then
+			9.2.1 An error message will show indicating that the title is required for the product.
+			9.2.2 The use case resumes at step 3.

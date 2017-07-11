@@ -1,0 +1,22 @@
+PBI Number	: 145
+
+PBI Title	: Display all main and sub categories of products
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. Categories was added by an admin.
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to the home page.
+	2. The list of main categories is displayed.
+	3. Visitor clicks on a specific main category.
+	4. The sub categories list for the selected main category is displayed.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	None

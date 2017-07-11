@@ -1,0 +1,30 @@
+PBI Number	: 96
+
+PBI Title	: Add product to the store
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+
+Basic Flow (Happy Path):
+	1. Vendor navigates to the vendor panel.
+	2. Vendor clicks on the add product option.
+	3. The add product page shows input fields for product information is displayed.
+	4. The page has a save option.
+	5. Vendor enters the product information.
+	7. Vendor clicks on the save button.
+	8. The product details are validated.
+	9. The product is saved into the application.
+
+	
+Postconditions	:
+	1. The product is visible to members and visitors.
+
+Alternative Flow:
+	8.1 Product information is invalid
+		if vendor provides invalid product information, then
+			8.1.1. An error message shows to indicate that the product information
+			       is invalid.
+			8.1.2 The use case resumes at step 3.

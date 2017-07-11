@@ -1,0 +1,25 @@
+PBI Number	: 57
+
+PBI Title	: Review products in shopping cart
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. A product was added to the shopping cart by the visitor.
+
+Basic Flow (Happy Path):
+	1. Visitor hovers on the shopping cart and clicks on the option to view the shopping cart.
+	2. The shopping cart page is displayed, showing the added items in rows.
+	3. Each row shows a Product information, Total Price and an option to remove it.
+	4. The page also has a checkout and continue shopping options.
+	5. There is a paging support to navigate between different pages of items.
+	6. Visitor clicks on the continue shopping option.
+	7. The visitor is returned to the previous page.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	None

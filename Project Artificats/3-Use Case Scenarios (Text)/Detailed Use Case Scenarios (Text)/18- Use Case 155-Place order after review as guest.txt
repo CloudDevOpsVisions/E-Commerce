@@ -1,0 +1,31 @@
+PBI Number	: 155
+
+PBI Title	: Place order after review as guest
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. At least one item was added to the shopping cart by the visitor.
+
+Basic Flow (Happy Path):
+	1. Visitor clicks on "Checkout" button after reviewing the order and adding his address.
+	2. The checkout page shows input fields for payment information and a button place order 
+	   button is displayed.
+	3. The visitor adds the required details.
+	4. The visitor clicks on the place order button.
+	5. The payment information is validated.
+	6. An email is sent to the visitor with shipping details and order details.
+	7. The visitor is registered as a member without a password.
+
+	
+Postconditions	:
+	1. The Application is updated with the order information.
+	2. The Application is updated with member information.
+
+Alternative Flow:
+
+	5.1 Invalid payment details
+		if the payment information is invalid, then
+			5.1.1. An error message will show to the visitor indicating that the 
+			       payment information is invalid.

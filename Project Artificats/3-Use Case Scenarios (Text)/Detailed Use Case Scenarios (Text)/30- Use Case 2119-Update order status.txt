@@ -1,0 +1,26 @@
+PBI Number	: 2119
+
+PBI Title	: Update order status
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+	2. At least one order was made to the vendor.
+
+Basic Flow (Happy Path):
+	1. Vendor navigates to list all orders page.
+	2. The list all orders page is displayed.
+	3. The page has a disabled save button.
+	4. The vendor clicks on the Order status for a specific order, and changes it to completed.
+	5. The save buttons is available indicating that there changes to be saved.
+	6. The vendor clicks on the save button.
+	7. The save button is disabled again.
+
+	
+Postconditions	:
+	1. The order status is updated in the application.
+
+Alternative Flow:
+	None

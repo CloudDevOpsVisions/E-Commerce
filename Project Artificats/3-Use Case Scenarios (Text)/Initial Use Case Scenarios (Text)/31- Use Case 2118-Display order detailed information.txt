@@ -1,0 +1,25 @@
+PBI Number	: 2118
+
+PBI Title	: Display order detailed information
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+	2. An order was made to the vendor.
+
+Basic Flow (Happy Path):
+	1. Vendor navigates to vendor panel.
+	2. Vendor clicks on a specific order from list all orders page.
+	3. Another page for viewing order information is displayed.
+	4. The page shows Member's personal information.
+	5. The page also shows the order infromation.
+	6. The page also displayes each ordered product information.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	None

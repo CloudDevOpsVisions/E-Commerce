@@ -1,0 +1,27 @@
+PBI Number	: 75
+
+PBI Title	: Add selected product to the shopping cart
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. At least one product was added by a vendor.
+
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to the home page.
+	2. Visitor clicks on "Add to cart" button for a specific product from featured products slider.
+	3. The product is added to the visitor's shopping cart.
+	4. A notification pane shows that the specified product was added is displayed for three seconds.
+	5. Visitor clicks again on the "Add to cart" button for the specified product.
+	6. One more item of the product is added to the shopping cart.
+	7. A notification pane shows that the specified product was added is displayed for three seconds.
+
+	
+Postconditions	:
+	1. Two items of the same product are added to the shopping cart.
+
+
+Alternative Flow:
+	None

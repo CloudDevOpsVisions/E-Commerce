@@ -1,0 +1,33 @@
+PBI Number	: 2116
+
+PBI Title	: Provide paging for product lists
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. At least 81 products was added by vendors.
+
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to the home page and clicks on view all link from the new arrivals slider.
+	2. A page shows first 20 new arrivals products is displayed.
+	3. The page has a paging area where visitor can navigate between different pages which shows
+	   the rest of the products.
+	4. The paging area shows buttons to navigate to the previous and next pages.
+	5. The current page button is disabled.
+	6. The visitor clicks on the second page button.
+	7. The list is updated with other products.
+	8. The previous page button is now enabled.
+	9. The current page button is disabled.
+
+	
+Postconditions	:
+	None.
+
+	
+Alternative Flow:
+	2.1 The number of products per page is set to 30
+		if the settings were modified to show 30 products per page, then
+			2.1.1 The page will show 30 products instead of 20.
+			2.1.2 The use case resumes at step 4.

@@ -1,0 +1,24 @@
+PBI Number	: 92
+
+PBI Title	: Display all added products
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+	2. A product was added by the vendor.
+
+Basic Flow (Happy Path):
+	1. Vendor navigates to vendor panel.
+	2. Vendor clicks on list all products option.
+	3. The product list page is displayed, showing added products in rows.
+	4. Each row shows a single product information.
+	6. There is a paging support to navigate between different pages of products.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	None

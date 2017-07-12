@@ -1,0 +1,32 @@
+PBI Number	: 146
+
+PBI Title	: Login to the Admin site
+
+Primary Actors	:
+	1. Admin
+
+Preconditions	:
+	1. Admin account already exists.
+
+Basic Flow (Happy Path):
+	1. Admin navigates to the home page.
+	2. Admin clicks on the Sign In option.
+	3. The login page shows input fields for Admin credentials and remember me option.
+	4. Admin enters his username and his password.
+	5. Admin checks the Remember me option.
+	6. Admin clicks on the login option.
+	7. The Admin credentials are validated.
+	8. Admin is redirected to his profile.
+
+	
+Postconditions	:
+	1. The Admin has been logged in successfully.
+	2. Admin is kept logged in.
+
+
+Alternative Flow:
+	7.1 Invalid credentials
+		if the credentials provided by the Admin are invalid, then
+			7.1.1. An error message will show indicating that the credentials are
+			       invalid.
+			7.1.2 The use case resumes at step 3.

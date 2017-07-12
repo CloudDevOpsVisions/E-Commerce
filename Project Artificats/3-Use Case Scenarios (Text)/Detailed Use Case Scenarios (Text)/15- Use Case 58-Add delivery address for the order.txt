@@ -1,0 +1,34 @@
+PBI Number	: 58
+
+PBI Title	: Add delivery address for the order
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. At least one item was added to the shopping cart by the visitor.
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to his shopping cart and clicks on the checkout button.
+	2. A page shows input fields for visitor's info, which is First name, Last name, 
+	   Email, Phone, City, State name, Postal code, Country name and address is displayed.
+	3. The page also shows buttons to get back to the shopping cart and to checkout.
+	4. The visitor adds the details and clicks on the checkout button.
+	5. The visitor details are validated.
+	6. The visitor is navigated to review order page.
+
+	
+Postconditions	:
+	1. The visitor's information is now saved with the order information.
+
+
+Alternative Flow:
+	5.1 Invalide postal code
+		if the postal code is invalid, then
+			5.1.1 An error message will show to the visitor indicating that the postal code is invalid.
+			5.1.2 The use case resumes at step 2.
+
+	5.2 Invalid address
+		if the address provided is invalid, then
+			5.2.1 An error message will show to the visitor indicating that the address is invalid.
+			5.2.2 The use case resumes at step 2.

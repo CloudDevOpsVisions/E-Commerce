@@ -1,0 +1,42 @@
+PBI Number	: 2071
+
+PBI Title	: Display all orders made by all users for all vendors
+
+Primary Actors	:
+	1. Admin
+
+Preconditions	:
+	1. Admin has been logged in to his account.
+	2. Admin has been authorized to list all orders.
+
+Basic Flow (Happy Path):
+	1.  Admin navigates to admin panel.
+	2.  Admin clicks on list all orders link.
+	3.  The list all orders page is displayed, showing the first 20 offers in rows ordered
+	    by recent order date.
+	4.  Each row shows an Order Id, Order Date, Order Status, Total Products in order, 
+	    Total Price, Username of the member who made the order and vendor name who will 
+	    provide the order.
+	5.  The Order Id is also a link to view order details, the Order Status is a list with
+	    possible order status, the vendor name and member username is also links to view vendor
+	    profile and member profile respectively.
+	6.  There is a paging area where admin can navigate between different pages which displayes 
+	    the rest of the orders.
+	7.  The list can be filtered by date range, vendor name or username using a date range 
+	    selectors, two search boxes and a search button respectively.
+	8.  Admin enters few letters of a specific vendor name in the filter by vendor name field.
+	9.  A list of vendor names that contains letters entered by admin shows in the filter by vendor name field.
+	10. Admin clicks on a specific vendor name from the list.
+	11. The filter by vendor name field is filled with the selected vendor.
+	12. Admin clicks on the search box.
+	13. The list is updated with only orders made for the specified vendor.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	3.1 The number of orders per page is set to 30
+		if the settings were modified to show 30 order per page, then
+			3.1.1. The list will show 30 order.
+			3.1.2. The use case resumes at step 4.

@@ -1,0 +1,25 @@
+PBI Number	: 59
+
+PBI Title	: Review order before checkout
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. A product was added to the shopping cart by the visitor.
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to his shopping cart, confirms his information and clicks on review order option.
+	2. The order review page shows the items ordered in rows and shopping cart information is displayed.
+	3. Each row shows a Product information and controls.
+	4. The visitor's personal information is also displayed.
+	5. The page shows an option to edit the address and other personal information, an option to 
+	   continue shopping and an option to continue the checkout.
+
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	None

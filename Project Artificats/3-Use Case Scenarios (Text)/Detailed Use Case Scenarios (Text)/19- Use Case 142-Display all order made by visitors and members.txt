@@ -1,0 +1,45 @@
+PBI Number	: 142
+
+PBI Title	: Display all order made by visitors and memebrs
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+	2. At least one order was made to the vendor.
+
+Basic Flow (Happy Path):
+	1.  Vendor navigates to the vendor panel.
+	2.  Vendor clicks on list all orders link.
+	3.  The list all orders page is displayed, showing the first 20 offers in rows ordered by recent order date.
+	4.  Each row shows an Order Id, Order Date, Order Status, Total Product in order, Total Price and Username 
+	    which made the order.
+	5.  The Order Id is also a link to view order details, the Order Status is a list with possible order status 
+	    and the username is also a link to view member profile.
+	6.  There is a paging area where vendor can navigate between different pages which displayes the rest of the 
+	    orders.
+	7.  The list can be filtered by date range or username using a date range selectors, a search box and a search 
+	    button repectively.
+	8.  Vendor clicks on the date range selectors.
+	9.  Two Date selectors are displayed, the feature dates are disabled.
+	10. Vendor enters two specific dates.
+	11. Vendor clicks on the search button.
+	12. The vendor input is being validated.
+	13. The list is updated with orders made in the selected date range.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	
+	3.1 The number of orders per page is set to 30
+		if the settings were modified to show 30 order per page, then
+			3.1.1. The list will show 30 order, and the use case continue.
+			3.1.2 The use case resumes at step 4.
+
+	12.1 No orders for the selected dates
+		if the selected dates doesn't contain any orders, then
+			12.1.1. The list content is replaced with a message indicating that no items were found.
+			12.1.2 The use case ends.

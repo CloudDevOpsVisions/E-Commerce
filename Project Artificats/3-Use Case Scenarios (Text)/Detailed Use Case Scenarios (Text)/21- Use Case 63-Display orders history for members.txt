@@ -1,0 +1,30 @@
+PBI Number	: 63
+
+PBI Title	: Display orders history for members
+
+Primary Actors	:
+	1. Member
+
+Preconditions	:
+	1. Member has been logged in to his account.
+	2. At least one order was made by the member.
+
+Basic Flow (Happy Path):
+	1. Member navigates to the home page.
+	2. Member clicks on order history link under his account list.
+	3. The orders list page shows the first 20 orders in rows ordered by recent order date is displayed.
+	4. Each row shows an Order Id, Order Date Total Price and a details link.
+	5. There is also a paging area where member can navigate between different pages which displays the rest of the orders.
+	6. Member clicks on the details link for a specific order.
+	7. The row for the specified order expands and displays a list of all items in the order in rows.
+	8. Each row shows item quantity, total price and an image.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	3.1 The number of orders per page is set to 30
+		if the settings were modified to show 30 orders per page, then
+			3.1.1. The list will show 30 orders instead of 20.
+			3.1.2 The use case resumes at step 4.

@@ -1,0 +1,31 @@
+PBI Number	: 92
+
+PBI Title	: Display all added products
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+	2. At least one product was already added by the vendor.
+
+Basic Flow (Happy Path):
+	1. Vendor navigates to vendor panel.
+	2. Vendor clicks on list all products link.
+	3. The product list page is displayed, showing the first 20 products in rows ordered 
+	   by product title.
+	4. Each row shows a single product details, which is Product Id, Title, Price and a 
+	   delete icon.
+	5. The product title is also a link to view and update product details.
+	6. There is a paging area where vendor can navigate between different pages which 
+	   displayes the rest of the products.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	3.1 The number of products per page is set to 30
+		if the settings were modified to show 30 products per page, then
+			3.1.1. The list will show 30 products instead of 20.
+			3.1.2 The use case resumes at step 4.

@@ -1,0 +1,32 @@
+PBI Number	: 93
+
+PBI Title	: Update product data
+
+Primary Actors	:
+	1. Vendor
+
+Preconditions	:
+	1. Vendor has been logged in to his account.
+	2. A product was added by the vendor.
+
+Basic Flow (Happy Path):
+	1.  Vendor navigates to vendor panel.
+	2.  Vendor clicks on a specific product from list all products page.
+	3.  The page shows input fields for product information is displayed.
+	4.  All of the input fields are filled with the current product information.
+	5.  The page has an update option.
+	6.  Vendor updates product information
+	7.  Vendor clicks on the update option.
+	8.  The product information is validated.
+	9.  The product information is updated.
+	
+Postconditions	:
+	1. The product information is updated.
+	2. The update is reflected to members and visitors.
+
+Alternative Flow:
+	8.1 Product information is invalid
+		if vendor provides invalid product information, then
+			8.1.1. An error message shows to indicate that the product information
+			       is invalid.
+			8.1.2 The use case resumes at step 3.

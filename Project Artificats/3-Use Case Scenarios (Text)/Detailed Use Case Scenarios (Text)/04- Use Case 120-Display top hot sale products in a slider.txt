@@ -1,0 +1,25 @@
+PBI Number	: 120
+
+PBI Title	: Display top hot sale products in a slider
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. Vendors have already added at least four products.
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to the home page.
+	2. A slider with one hot sale product and buttons for navigation between 
+	   next and previous hot sale products is displayed.
+	3. Visitor clicks on the next button.
+	4. Another hot sale product is displayed.
+	5. Repeat step 3 and step 4 for three times.
+	6. A link to view all hot sale products is displayed.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	None

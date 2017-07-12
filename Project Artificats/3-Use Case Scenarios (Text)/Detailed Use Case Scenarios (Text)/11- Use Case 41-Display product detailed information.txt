@@ -1,0 +1,25 @@
+PBI Number	: 41
+
+PBI Title	: Display product detailed information
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. At least one product was added by a vendor.
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to the home page.
+	2. Visitor clicks on a specific product from featured products slider.
+	3. Another page for viewing the product is displayed.
+	4. The page shows all information for the specified product, which are price, image,
+	   title, description, discount, stock availability, key features, and a fully detailed 
+	   specifications.
+	5. An add to cart button is also displayed.
+
+	
+Postconditions	:
+	None
+
+Alternative Flow:
+	None

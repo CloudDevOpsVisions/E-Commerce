@@ -1,0 +1,46 @@
+PBI Number	: 5
+
+PBI Title	: Provide membership for visitors
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	None
+
+Basic Flow (Happy Path):
+	1.  Visitor navigates to the home page.
+	2.  Visitor clicks on the Sign In link.
+	3.  Visitor is redirected to the login page.
+	4.  Visitor clicks on Create Account link from the login page.
+	5.  The registeration page shows input fields for First name, Last name, Email, Phone, Username,
+	    Age, Gender, Password, Password confirmation, City, State name, Postal code, Country name and
+	    Address is displayed.
+	6.  The page has a Sign Up button.
+	7.  The visitor enters the required information.
+	8.  The visitor clicks on the Sign Up button.
+	9.  The visitor details is validated.
+	10. The system sends a welcome email to the user.
+	11. Member is redirected to account page.
+
+	
+Postconditions	:
+	1. The member account is created.
+	2. The member is automatically logged in after registeration.
+
+Alternative Flow:
+	9.1 Invalid Email address
+		if the email provided is invalid, then
+			9.1.1. An error message will show to the visitor indicating that the email is 
+			       invalid.
+			9.1.2. The use case resumes at step 5.
+	9.2 Invallid phone number
+		if the phone number provided is invalid, then
+			9.2.1. An error message will show to the visitor indicating that the phone number
+			       is invalid.
+			9.2.2 The use case resumes at step 5.
+	9.3 Password is too short
+		if the phone number provided is invalid, then
+			9.3.1. An error message will show to the visitor indicating that the password 
+			       is too short and the the minimum length is 6 characters.
+			9.3.2 The use case resumes at step 5.

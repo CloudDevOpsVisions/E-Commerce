@@ -1,0 +1,23 @@
+PBI Number	: 141
+
+PBI Title	: Remove product from shopping cart
+
+Primary Actors	:
+	1. Visitor
+
+Preconditions	:
+	1. A product was added to the shopping cart by the visitor.
+
+Basic Flow (Happy Path):
+	1. Visitor navigates to the home page and hovers on his shopping cart.
+	2. A product is displayed in the shopping cart.
+	2. Visitor clicks on the remove icon next to the specified product.
+	3. The product is removed from the shopping cart.
+
+	
+Postconditions	:
+	1. The Shopping cart is updated.
+
+
+Alternative Flow:
+	None

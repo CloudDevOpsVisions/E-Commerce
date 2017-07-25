@@ -349,9 +349,9 @@ This is the complete list of BWF PBIs:
 
 ### About The Founder
 
-<strong>Mohamed Radwan</strong> is an MVP (Microsoft Most Valuable Professional) in the Visual Studio ALM (Application Lifecycle Management) for 5 consecutive years and a DevOps Practice Lead. He focuses on providing solutions for the various roles involved in software development and delivery process to enable them to build better software through Agile Methodologies and utilization of Microsoft Visual Studio ALM/DevOps Tools and Technologies.<br/>
-Mohamed has been working in software development industry for more than 17 years, starting as a classic ASP.NET developer in the year 2000 them moving to different roles as a senior developer, team leader, lead architect. For the last 7 years he has been passionate and focused about DevOps practices and automation. <br/>
-Mohamed also worked in several countries in different regions, including United Kingdom where he works now, Sweden, Denmark, Egypt, Saudi Arabia, Kuwait, Oman, Libya. <br/>
+<strong>Mohamed Radwan</strong> is Visual Studio MVP (Microsoft Most Valuable Professional) for 5 consecutive years and a DevOps Practice Lead. He focuses on providing solutions for the various roles involved in software development and delivery process to enable them to build better software through Agile Methodologies and utilization of Microsoft Visual Studio ALM/DevOps Tools and Technologies.<br/>
+Mohamed has been working in software development industry for more than 17 years, starting as a classic ASP developer in the year 2000 them moving to different roles as a senior developer, team leader, lead architect. For the last 7 years he has been passionate and focused about DevOps practices and automation. <br/>
+Mohamed also worked in several countries in different regions, including United Kingdom, Sweden, Denmark, Egypt, Saudi Arabia, Kuwait, Oman, Libya. <br/>
 Through his journey, he got the opportunity to work and help hundreds of companies to improve their software delivery practices.
 He also issued a lot of guides for TFS (Team Foundation Server), developed many extensions for Visual Studio, made many open source libraries and projects on GitHub and authored many tutorials on YouTube, his blog and other communities.
 He is also a regular speaker and participated in many local and regional conferences and events in all countries where He worked  in.<br/>
